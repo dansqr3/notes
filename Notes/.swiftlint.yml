@@ -1,0 +1,14 @@
+disabled_rules:
+- nesting
+- switch_case_alignment
+- unused_closure_parameter
+- trailing_comma
+- large_tuple
+
+excluded:
+- Pods
+
+cyclomatic_complexity:
+- 20 # warning
+- 30 # error
+
